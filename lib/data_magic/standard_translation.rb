@@ -47,7 +47,7 @@ module DataMagic
     # return a random title
     #
     def title
-      Faker::Name.title
+      Faker::Job.title
     end
     alias_method :dm_title, :title
 

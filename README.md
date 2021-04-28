@@ -1,6 +1,6 @@
 # data_magic
 
-[![Build Status](http://travis-ci.org/cheezy/data_magic.png)](http://travis-ci.org/cheezy/data_magic)
+[![Build Status](https://github.com/TheSpartan1980/data_magic/actions/workflows/ci.yml/badge.svg)](https://github.com/TheSpartan1980/data_magic/actions/workflows/ci.yml)
 
 An easy to use gem that provides datasets that can be used by your application
 and tests.  The data is stored in yaml files.

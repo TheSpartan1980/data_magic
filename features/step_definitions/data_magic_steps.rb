@@ -59,6 +59,7 @@ end
 
 Then /^the value for "(.*?)" should begin with (\d+) numbers$/ do |key, num|
   value = @data[key]
+  puts(value)
   expect(value[0,num.to_i].is_integer).to be true
 end
 

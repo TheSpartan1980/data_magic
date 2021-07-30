@@ -9,5 +9,6 @@ module DataMagic
     def initialize(parent)
       @parent = parent
     end
+
   end
 end

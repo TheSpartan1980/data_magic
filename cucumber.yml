@@ -1,2 +1,2 @@
-default: --no-source --color --format pretty --format html --out reports/cucumber_results.html
+default: --no-source --color --format pretty
 focus: --no-source --color --format pretty --tags @focus

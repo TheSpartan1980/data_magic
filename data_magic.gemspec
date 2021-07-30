@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.executables   = `git ls-files -- bin/*`.split("\n").map { |f| File.basename(f) }
   gem.require_paths = ['lib']
 
-  gem.required_ruby_version = '>= 2.7.3'
+  gem.required_ruby_version = '>= 2.7.2'
 
   gem.add_dependency 'faker', '>= 2.17'
   gem.add_dependency 'yml_reader', '>= 0.7'
